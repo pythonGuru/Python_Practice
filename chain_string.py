@@ -19,4 +19,4 @@ def chain_string(arr):
 
     return True
 
-print chain_string(["geek", "king"])
+print chain_string(['geek', 'king'])
