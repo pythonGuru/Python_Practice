@@ -1,3 +1,6 @@
+# Nikhil Tyagi
+# Function returns all strings from list that constitute original given string
+
 def word_split(s,l):
     #if output is None:
     #        output = []
@@ -11,6 +14,10 @@ def word_split(s,l):
         else:
             continue
 
-    return new_lst
+    if len_new == len(s):
+        return new_lst
+    else:
+        return []
 
-print word_split('ilovedogsjohn', ['i','am','a','dogs','lover','love','john'])
+# Test Run
+print word_split('themanran', ['clown','man','ran'])
